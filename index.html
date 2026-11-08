@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>อัญมณีประจำเดือนเกิด ทั้ง 12 เดือน</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@400;600&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#14101c;--bg2:#1d1729;--ink:#f3ece0;--mute:#b4aabf;--gold:#d4af6a;--line:rgba(212,175,106,.28);--on-gold:#1a1308;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#faf5ec;--bg2:#f0e7d6;--ink:#241b2f;--mute:#6b5f78;--gold:#8f6a1f;--line:rgba(143,106,31,.35);--on-gold:#fff}}
+:root[data-theme="dark"]{--bg:#14101c;--bg2:#1d1729;--ink:#f3ece0;--mute:#b4aabf;--gold:#d4af6a;--line:rgba(212,175,106,.28);--on-gold:#1a1308}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Sarabun',system-ui,sans-serif;line-height:1.7}
+h1,h2,h3{font-family:'Noto Serif Thai',Georgia,serif;font-weight:600;line-height:1.35;margin:0}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header.top{padding:28px 0 8px;text-align:center}
+header.top h1{font-size:clamp(1.9rem,6vw,3.2rem);letter-spacing:.01em}
+header.top p{color:var(--mute);max-width:34em;margin:10px auto 0}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:18px 20px;scrollbar-width:none;justify-content:flex-start}
+@media(min-width:900px){.chips{justify-content:center;flex-wrap:wrap;overflow:visible}}
+.chip{flex:none;border:1px solid var(--line);background:transparent;color:var(--ink);font:inherit;padding:6px 16px;border-radius:99px;cursor:pointer;display:flex;align-items:center;gap:8px}
+.chip i{width:10px;height:10px;border-radius:50%;display:block}
+.chip[aria-pressed="true"]{background:var(--gold);color:var(--on-gold);border-color:var(--gold)}
+.chip:focus-visible,.btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.feature{display:grid;gap:24px;align-items:center;background:var(--bg2);border:1px solid var(--line);border-radius:28px;padding:28px 22px;margin:6px 0 56px}
+@media(min-width:760px){.feature{grid-template-columns:1fr 1.1fr;padding:44px}}
+.stage{aspect-ratio:1;max-width:380px;width:100%;margin:0 auto;position:relative;display:grid;place-items:center}
+.stage::before{content:"";position:absolute;inset:6%;border-radius:50%;background:radial-gradient(circle,var(--glow),transparent 68%);opacity:.5;filter:blur(8px)}
+.stage svg{width:78%;position:relative;animation:float 6s ease-in-out infinite;filter:drop-shadow(0 18px 24px rgba(0,0,0,.35))}
+@keyframes float{50%{transform:translateY(-8px) rotate(1.5deg)}}
+@media(prefers-reduced-motion:reduce){.stage svg{animation:none}}
+.feature h2{font-size:clamp(1.6rem,4.5vw,2.4rem)}
+.feature .en{color:var(--gold);font-family:'Noto Serif Thai',serif;margin:2px 0 14px}
+.feature p{color:var(--mute);margin:0 0 12px}
+.facts{list-style:none;padding:0;margin:14px 0 22px;display:grid;gap:6px}
+.facts li{border-top:1px solid var(--line);padding-top:6px;display:flex;justify-content:space-between;gap:12px}
+.facts span:first-child{color:var(--mute)}
+.btn{display:inline-block;background:var(--gold);color:var(--on-gold);text-decoration:none;font-weight:600;padding:12px 26px;border-radius:99px}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.btn:hover{filter:brightness(1.08)}
+.feature .btn{margin:0 8px 8px 0}
+.sec h2{font-size:clamp(1.4rem,4vw,2rem);margin-bottom:6px;text-align:center}
+.sec>p{text-align:center;color:var(--mute);margin:0 0 28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px}
+.card{border:1px solid var(--line);border-radius:20px;padding:20px 18px 22px;text-align:center;background:var(--bg2);display:flex;flex-direction:column;align-items:center}
+.card svg{width:96px;margin-bottom:10px}
+.card .m{color:var(--gold);font-size:.9rem}
+.card h3{font-size:1.25rem}
+.card .en{color:var(--mute);font-size:.9rem}
+.card p{color:var(--mute);font-size:.92rem;margin:8px 0 16px;flex:1}
+.card .row{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+.card .btn{padding:8px 18px;font-size:.92rem}
+footer{margin-top:64px;padding:36px 0 40px;border-top:1px solid var(--line);text-align:center;color:var(--mute)}
+footer h2{color:var(--ink);font-size:1.5rem;margin-bottom:8px}
+footer .btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>อัญมณีประจำเดือนเกิด</h1>
+    <p>เลือกเดือนเกิดของคุณหรือของคนที่คุณรัก เพื่อดูความหมาย สีสัน และสั่งซื้ออัญมณีที่ใช่</p>
+  </header>
+</div>
+<nav class="chips" id="chips" aria-label="เลือกเดือนเกิด"></nav>
+<main class="wrap">
+  <section class="feature" id="feature" aria-live="polite"></section>
+  <section class="sec" id="all">
+    <h2>อัญมณีทั้ง 12 เดือน</h2>
+    <p>แตะที่ชื่อหรือรูปเพื่อดูรายละเอียด หรือกดสั่งซื้อได้ทันที</p>
+    <div class="grid" id="grid"></div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <h2>พร้อมสั่งซื้อแล้วหรือยัง</h2>
+    <p>เลือกซื้อเม็ดพลอยแท้ หรือเครื่องประดับพลอยประจำเดือนเกิดจากร้านออนไลน์ได้เลย</p>
+    <div class="btns">
+      <a class="btn" id="orderMain" target="_blank" rel="noopener">ซื้อเม็ดพลอย (GemSelect)</a>
+      <a class="btn ghost" id="lineLink" target="_blank" rel="noopener">ดูเครื่องประดับ (Angara)</a>
+    </div>
+  </div>
+</footer>
+<script>
+/* ===== ลิงก์ร้านค้า (เปลี่ยนเป็นร้านของคุณได้) ===== */
+var SHOP_GEM_URL   = "https://www.gemselect.com/gem-info/birthstones.php"; /* เม็ดพลอย: GemSelect */
+var SHOP_JEWEL_URL = "https://www.angara.com/c/birthstone+jewelry"; /* เครื่องประดับ: Angara */
+/* =================================== */
+var G=[
+{m:"มกราคม",n:"โกเมน",e:"Garnet",c:"#b0182f",s:"dia",t:"ความรักมั่นคง ความซื่อสัตย์ และพลังชีวิต",d:"ทับทิมสีแดงเข้มดั่งไวน์ เชื่อกันว่าช่วยให้ผู้สวมใส่มีพลังและความมุ่งมั่น",h:"6.5–7.5",o:"แดงเลือดนก"},
+{m:"กุมภาพันธ์",n:"อเมทิสต์",e:"Amethyst",c:"#8a58d0",s:"oct",t:"ความสงบ สติ และปัญญา",d:"ควอตซ์สีม่วงสง่างาม นิยมใช้เสริมความสงบและความชัดเจนของความคิด",h:"7",o:"ม่วงอ่อนถึงม่วงเข้ม"},
+{m:"มีนาคม",n:"อความารีน",e:"Aquamarine",c:"#5fc9dd",s:"oct",t:"ความกล้าหาญ ความสงบ และการเดินทางปลอดภัย",d:"สีฟ้าใสดั่งน้ำทะเล เป็นอัญมณีของนักเดินทางและผู้รักอิสระ",h:"7.5–8",o:"ฟ้าใสถึงฟ้าอมเขียว"},
+{m:"เมษายน",n:"เพชร",e:"Diamond",c:"#cfe9f7",s:"dia",t:"ความรักนิรันดร์ ความบริสุทธิ์ และความแข็งแกร่ง",d:"อัญมณีที่แข็งที่สุดในโลก ประกายไฟสะท้อนแสงเป็นเอกลักษณ์",h:"10",o:"ไม่มีสีถึงเหลืองอ่อน"},
+{m:"พฤษภาคม",n:"มรกต",e:"Emerald",c:"#139a5c",s:"oct",t:"ความอุดมสมบูรณ์ ความรักใหม่ และโชคดี",d:"สีเขียวสดลึกล้ำ เป็นหนึ่งในอัญมณีล้ำค่าที่ได้รับความนิยมมาหลายพันปี",h:"7.5–8",o:"เขียวเข้ม"},
+{m:"มิถุนายน",n:"มุก",e:"Pearl",c:"#efe4d8",s:"round",t:"ความบริสุทธิ์ ความสง่างาม และความอ่อนโยน",d:"อัญมณีจากท้องทะเลที่ไม่ต้องเจียระไน ผิวเรียบนวลคลาสสิกไม่ตกยุค",h:"2.5–4.5",o:"ขาวนวลถึงชมพูอ่อน"},
+{m:"กรกฎาคม",n:"ทับทิม",e:"Ruby",c:"#d3103a",s:"dia",t:"ความรัก ความกล้าหาญ และอำนาจ",d:"ราชินีแห่งอัญมณีสีแดง เปล่งประกายร้อนแรงและมีค่าสูง โดยเฉพาะทับทิมสยาม",h:"9",o:"แดงสด"},
+{m:"สิงหาคม",n:"เพอริดอต",e:"Peridot",c:"#a4d02e",s:"oct",t:"ความสุข พลังบวก และการเริ่มต้นใหม่",d:"สีเขียวมะนาวสดใสดั่งแสงแดด ช่วยเสริมความร่าเริงให้ผู้สวมใส่",h:"6.5–7",o:"เขียวมะนาว"},
+{m:"กันยายน",n:"ไพลิน",e:"Sapphire",c:"#2146a8",s:"oct",t:"ปัญญา ความจริงใจ และความสูงศักดิ์",d:"สีน้ำเงินเข้มลึกซึ้ง ใช้สื่อถึงความซื่อสัตย์และความผูกพันระยะยาว",h:"9",o:"น้ำเงินเข้ม"},
+{m:"ตุลาคม",n:"โอปอล",e:"Opal",c:"#c9a6e8",s:"round",t:"ความคิดสร้างสรรค์ ความหวัง และจินตนาการ",d:"ประกายหลากสีเปลี่ยนไปตามมุมมอง ไม่มีชิ้นไหนเหมือนกันเลย",h:"5.5–6.5",o:"ขาวนวลประกายรุ้ง"},
+{m:"พฤศจิกายน",n:"ซิทริน",e:"Citrine",c:"#f0a31f",s:"dia",t:"ความมั่งคั่ง ความมั่นใจ และพลังบวก",d:"ควอตซ์สีเหลืองอำพันอบอุ่น ได้ชื่อว่าเป็นอัญมณีแห่งโชคลาภ",h:"7",o:"เหลืองทองถึงส้ม"},
+{m:"ธันวาคม",n:"เทอร์ควอยซ์",e:"Turquoise",c:"#2ec4bd",s:"round",t:"การปกป้อง มิตรภาพ และโชคดี",d:"สีฟ้าเขียวเป็นเอกลักษณ์ ใช้เป็นเครื่องรางมาตั้งแต่โบราณ",h:"5–6",o:"ฟ้าอมเขียว"}
+];
+function mix(h,p){var n=parseInt(h.slice(1),16),r=n>>16,g=n>>8&255,b=n&255,t=p<0?0:255,a=Math.abs(p);
+ r=Math.round((t-r)*a+r);g=Math.round((t-g)*a+g);b=Math.round((t-b)*a+b);return "rgb("+r+","+g+","+b+")"}
+var uid=0;
+function gem(g){
+ var id="g"+(uid++),c=g.c,L=mix(c,.55),M=mix(c,.2),D=mix(c,-.45),s="";
+ var defs='<defs><linearGradient id="'+id+'" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="'+L+'"/><stop offset=".5" stop-color="'+c+'"/><stop offset="1" stop-color="'+D+'"/></linearGradient><radialGradient id="'+id+'r" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="'+mix(c,.8)+'"/><stop offset=".5" stop-color="'+c+'"/><stop offset="1" stop-color="'+D+'"/></radialGradient></defs>';
+ if(g.s=="round"){
+  s='<circle cx="50" cy="50" r="42" fill="url(#'+id+'r)"/><ellipse cx="36" cy="32" rx="14" ry="8" fill="#fff" opacity=".55" transform="rotate(-30 36 32)"/><circle cx="66" cy="68" r="5" fill="#fff" opacity=".18"/>';
+  if(g.e=="Opal")s+='<circle cx="60" cy="60" r="12" fill="#6fe0d0" opacity=".35"/><circle cx="44" cy="62" r="9" fill="#ff9ad0" opacity=".35"/><circle cx="62" cy="40" r="7" fill="#ffe27a" opacity=".35"/>';
+ }else if(g.s=="oct"){
+  var o="26,8 74,8 93,27 93,73 74,92 26,92 7,73 7,27",i="35,24 65,24 77,36 77,64 65,76 35,76 23,64 23,36";
+  s='<polygon points="'+o+'" fill="url(#'+id+')"/><polygon points="'+i+'" fill="'+M+'" opacity=".85"/>'+
+  '<polygon points="26,8 74,8 65,24 35,24" fill="#fff" opacity=".28"/><polygon points="7,27 26,8 35,24 23,36" fill="#fff" opacity=".16"/>'+
+  '<polygon points="93,73 74,92 65,76 77,64" fill="#000" opacity=".25"/><polygon points="26,92 74,92 65,76 35,76" fill="#000" opacity=".18"/>'+
+  '<polygon points="35,24 65,24 77,36 50,50" fill="#fff" opacity=".22"/><path d="M26 8L35 24M74 8L65 24M93 27L77 36M93 73L77 64M74 92L65 76M26 92L35 76M7 73L23 64M7 27L23 36" stroke="#fff" stroke-opacity=".35" stroke-width=".8" fill="none"/>';
+ }else{
+  s='<polygon points="28,14 72,14 93,40 50,92 7,40" fill="url(#'+id+')"/><polygon points="28,14 72,14 62,40 38,40" fill="#fff" opacity=".35"/>'+
+  '<polygon points="7,40 28,14 38,40" fill="#fff" opacity=".2"/><polygon points="93,40 72,14 62,40" fill="#000" opacity=".12"/>'+
+  '<polygon points="7,40 38,40 50,92" fill="#fff" opacity=".1"/><polygon points="93,40 62,40 50,92" fill="#000" opacity=".28"/><polygon points="38,40 62,40 50,92" fill="#000" opacity=".12"/>'+
+  '<path d="M7 40H93M38 40L50 92M62 40L50 92M28 14L38 40M72 14L62 40" stroke="#fff" stroke-opacity=".4" stroke-width=".8" fill="none"/>';
+ }
+ return '<svg viewBox="0 0 100 100" role="img" aria-label="'+g.n+'">'+defs+s+'</svg>';
+}
+function url(g){return SHOP_JEWEL_URL}
+var chips=document.getElementById("chips"),feat=document.getElementById("feature"),grid=document.getElementById("grid");
+function show(i,scroll){
+ var g=G[i];
+ [].forEach.call(chips.children,function(b,k){b.setAttribute("aria-pressed",k==i)});
+ feat.style.setProperty("--glow",g.c);
+ feat.innerHTML='<div class="stage" style="--glow:'+g.c+'">'+gem(g)+'</div><div><div class="en">เดือน'+g.m+'</div><h2>'+g.n+'</h2><div class="en">'+g.e+'</div>'+
+ '<p>'+g.t+'</p><p>'+g.d+'</p><ul class="facts"><li><span>ความแข็ง (โมห์ส)</span><span>'+g.h+'</span></li><li><span>สีที่นิยม</span><span>'+g.o+'</span></li></ul>'+
+ '<a class="btn" target="_blank" rel="noopener" href="'+SHOP_JEWEL_URL+'">ซื้อเครื่องประดับ'+g.n+'</a> <a class="btn ghost" target="_blank" rel="noopener" href="'+SHOP_GEM_URL+'">ซื้อเม็ดพลอย</a></div>';
+ if(scroll)feat.scrollIntoView({behavior:"smooth",block:"start"});
+}
+G.forEach(function(g,i){
+ var b=document.createElement("button");b.className="chip";b.setAttribute("aria-pressed","false");
+ b.innerHTML='<i style="background:'+g.c+'"></i>'+g.m;b.onclick=function(){show(i,false)};chips.appendChild(b);
+ var c=document.createElement("article");c.className="card";
+ c.innerHTML=gem(g)+'<div class="m">'+g.m+'</div><h3>'+g.n+'</h3><div class="en">'+g.e+'</div><p>'+g.t+'</p><div class="row"><a class="btn ghost" href="#feature" data-i="'+i+'">ดูรายละเอียด</a><a class="btn" target="_blank" rel="noopener" href="'+url(g)+'">สั่งซื้อ</a></div>';
+ grid.appendChild(c);
+});
+grid.addEventListener("click",function(e){var a=e.target.closest("[data-i]");if(a){e.preventDefault();show(+a.dataset.i,true)}});
+document.getElementById("orderMain").href=SHOP_GEM_URL;
+document.getElementById("lineLink").href=SHOP_JEWEL_URL;
+show(new Date().getMonth(),false);
+</script>
+</body>
+</html>
